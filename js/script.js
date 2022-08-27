@@ -76,7 +76,6 @@ movies.forEach((movie, index, arr) => {
     console.log(promoInteractiveList.innerHTML);
 });
 
-
 changeTitle(promoGenre, "Драма");
 deleteReklams(images);
 
