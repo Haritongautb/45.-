@@ -64,6 +64,8 @@ promoBG.style.background = "url(../img/bg.jpg) center center/cover no-repeat";
 promoInteractiveItem.forEach(item => {
     item.remove();
 });
+// II.a - или можно так удалить все элементы в HTML - так будет быстрее 
+// promoInteractiveList.innerHTML = "";
 
 
 movies.forEach((movie, index, arr) => {
