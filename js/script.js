@@ -73,6 +73,7 @@ movies.forEach((movie, index, arr) => {
     `<li class="promo__interactive-item">${index+1}. ${movie}
         <div class="delete"></div>
     </li>`;
+    console.log(promoInteractiveList.innerHTML);
 });
 
 
